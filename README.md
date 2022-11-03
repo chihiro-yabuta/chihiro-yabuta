@@ -2,7 +2,7 @@
 ![](https://komarev.com/ghpvc/?username=chihiro-yabuta)
 
 <table align="center">
-  <tr><th><h3>good</h3></th><th><h3>learning</h3></th></tr>
+  <tr><th><h3>good</h3></th><th><h3>interested</h3></th><th><h3>will</h3></th></tr>
   <tr>
     <td>
       <a href="https://www.python.org" target="_blank" rel="noreferrer">
@@ -18,6 +18,14 @@
       </a>
       <a href="https://golang.org" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="100"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="100"/>
+      </a>
+      <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="100"/>
       </a>
     </td>
   </tr>
