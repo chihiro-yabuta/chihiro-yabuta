@@ -1,0 +1,136 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+@keyframes hovering {
+  from {
+    transform: scale(99%);
+  } to {
+    transform: scale(101%);
+  }
+}
+
+.rect {
+  fill: white;
+}
+
+.text {
+  opacity: 0;
+  fill: #00FF00;
+  font-family: Courier;
+}
+
+.img {
+  opacity: 0;
+}
+
+.opt {
+  font-size: 50px;
+}
+
+.res {
+  font-size: 30px;
+}
+
+.url {
+  font-size: 20px;
+}
+
+.opt1 {
+  animation: appear 0.1s both 0.3s;
+}
+.name1 {
+  animation: appear 0.1s both 0.6s;
+}
+.name2 {
+  animation: appear 0.1s both 0.7s;
+}
+.name3 {
+  animation: appear 0.1s both 0.8s;
+}
+.name4 {
+  animation: appear 0.1s both 0.9s;
+}
+.res1 {
+  animation: appear 0.1s both 1.2s;
+}
+
+.opt2 {
+  animation: appear 0.1s both 1.5s;
+}
+.lang1 {
+  animation: appear 0.1s both 1.8s;
+}
+.lang2 {
+  animation: appear 0.1s both 1.9s;
+}
+.lang3 {
+  animation: appear 0.1s both 2s;
+}
+.lang4 {
+  animation: appear 0.1s both 2.1s;
+}
+.res2_1 {
+  animation: appear 0.1s both 2.4s;
+}
+.img1 {
+  animation: appear 0.1s both 2.5s;
+}
+.img2 {
+  animation: appear 0.1s both 2.6s;
+}
+.res2_2 {
+  animation: appear 0.1s both 2.7s;
+}
+.img3 {
+  animation: appear 0.1s both 2.8s;
+}
+.img4 {
+  animation: appear 0.1s both 2.9s;
+}
+
+.opt3 {
+  animation: appear 0.1s both 3.4s;
+}
+.info1 {
+  animation: appear 0.1s both 3.5s;
+}
+.info2 {
+  animation: appear 0.1s both 3.6s;
+}
+.info3 {
+  animation: appear 0.1s both 3.7s;
+}
+.info4 {
+  animation: appear 0.1s both 3.8s;
+}
+.res3_1 {
+  animation: appear 0.1s both 4.3s;
+}
+.res3_2 {
+  animation: appear 0.1s both 4.4s;
+}
+.res3_3 {
+  animation: appear 0.1s both 4.5s;
+}
+.res3_4 {
+  animation: appear 0.1s both 4.6s;
+}
+.res3_5 {
+  animation: appear 0.1s both 4.7s;
+}
+.res3_6 {
+  animation: appear 0.1s both 4.8s;
+}
+
+.last {
+  opacity: 1;
+  font-size: 15px;
+  transform-origin: 100% 100%;
+  animation: hovering 1s both 5s infinite;
+  animation-direction: alternate;
+}

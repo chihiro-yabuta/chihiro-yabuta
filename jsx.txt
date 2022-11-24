@@ -1,0 +1,94 @@
+<Container width={730} height={710}>
+  <Rect width={710} height={710} rx={30} ry={30} className={'back'} />
+  <Rect x={5} y={5} width={700} height={700} rx={30} ry={30} className={'rect'} />
+  <Group>
+    <Text x={30} y={75} className='text opt opt1'>
+      GitHub%
+    </Text>
+    <Text x={260} y={75} className='text opt name1'>
+      n
+    </Text>
+    <Text x={290} y={75} className='text opt name2'>
+      a
+    </Text>
+    <Text x={320} y={75} className='text opt name3'>
+      m
+    </Text>
+    <Text x={350} y={75} className='text opt name4'>
+      e
+    </Text>
+    <Text x={30} y={125} className='text res res1'>
+      My Name Is {Name}
+    </Text>
+    <Text x={30} y={190} className='text opt opt2'>
+      GitHub%
+    </Text>
+    <Text x={260} y={190} className='text opt lang1'>
+      l
+    </Text>
+    <Text x={290} y={190} className='text opt lang2'>
+      a
+    </Text>
+    <Text x={320} y={190} className='text opt lang3'>
+      n
+    </Text>
+    <Text x={350} y={190} className='text opt lang4'>
+      g
+    </Text>
+    <Text x={30} y={240} className='text res res2_1'>
+      Good:
+    </Text>
+    <Img x={150} y={220} width={75} height={75} className='img img1' href='https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg' />
+    <Img x={250} y={220} width={75} height={75} className='img img2' href='https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg' />
+    <Text x={30} y={350} className='text res res2_2'>
+      Learning:
+    </Text>
+    <Img x={220} y={330} width={75} height={75} className='img img3' href='https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg' />
+    <Img x={300} y={315} width={100} height={100} className='img img4' href='https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg' />
+    <Text x={30} y={460} className='text opt opt3'>
+      GitHub%
+    </Text>
+    <Text x={260} y={460} className='text opt info1'>
+      i
+    </Text>
+    <Text x={290} y={460} className='text opt info2'>
+      n
+    </Text>
+    <Text x={320} y={460} className='text opt info3'>
+      f
+    </Text>
+    <Text x={350} y={460} className='text opt info4'>
+      o
+    </Text>
+    <Text x={30} y={510} className='text res res3_1'>
+      followers: {Followers}
+    </Text>
+    <Text x={30} y={540} className='text res res3_2'>
+      repos num: {PublicRepos}
+    </Text>
+    <Text x={30} y={570} className='text res res3_3'>
+      company: {Company}
+    </Text>
+    <Text x={30} y={600} className='text res res3_4'>
+      blog:
+    </Text>
+    <Text x={130} y={600} className='text url res3_4'>
+      {Blog}
+    </Text>
+    <Text x={30} y={630} className='text res res3_5'>
+      qiita:
+    </Text>
+    <Text x={150} y={630} className='text url res3_5'>
+      https://qiita.com/chihiro-yabuta
+    </Text>
+    <Text x={30} y={660} className='text res res3_6'>
+      email:
+    </Text>
+    <Text x={150} y={660} className='text url res3_6'>
+      ja.chihiro.yabuta@gmail.com
+    </Text>
+    <Text x={440} y={685} className='text last'>
+      created by http://4card.me/
+    </Text>
+  </Group>
+</Container>
